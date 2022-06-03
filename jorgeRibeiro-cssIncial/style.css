@@ -9,7 +9,43 @@ header {
     justify-content:stretch;
     background-color: orange;
     align-items:center;
-    padding: 10px 15px;  
+
+    padding: 10px 15px;
+    text-align: center;
+    
+}
+
+button {
+   background-color: white; 
+   color: black;
+   width: 10%;
+   height:90%;
+   border: 3px orange;
+   border-radius: 15px;
+   cursor: pointer;
+   font-weight: bold;
+   
+}
+
+button:hover{
+    background-color: orangered; 
+    width: 10%;
+    height:90%;
+    border: 3px yellow;
+    border-radius: 15%
+    
+}
+
+.img-header {
+
+  height: 150%;  
+  width: 7%;
+  cursor: pointer;
+}
+
+header h1 {
+    display: flex;
+    padding-right: 72%;
 }
 nav{
     grid-area: nav;

@@ -6,9 +6,10 @@
 header {    
     grid-area: head;
     display:flex;
-    justify-content:space-between;
+    justify-content:stretch;
     background-color: orange;
     align-items:center;
+
     padding: 10px 15px;
     text-align: center;
     
@@ -33,13 +34,6 @@ button:hover{
     border: 3px yellow;
     border-radius: 15%
     
-    
-    
-    
-    
-    
-    
-
 }
 
 .img-header {
@@ -53,27 +47,24 @@ header h1 {
     display: flex;
     padding-right: 72%;
 }
-
-
-
-
 nav{
     grid-area: nav;
+    flex-grow: 1;
+
 }
 main{
     grid-area: main;
     display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items:stretch;
+    flex-flow: row wrap;
     gap: 20px;
     justify-content: flex-start;
-    margin: 40px;
-    
-    gap: 15px;
+    margin: 40px;    
     align-items: center;
 }
-
+.solicitarCartao{
+    flex-grow: 2;
+    justify-content:center 
+}
 .saiba-mais{
     color:blue
 }
@@ -83,10 +74,9 @@ video{
 }
 .video{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border: 1px solid green;
-    align-items:flex-start;
-    
+    align-items:flex-start;    
 }
 img{
     width: 300px;
@@ -95,6 +85,14 @@ img{
 textarea{
     font-size: 15px;
 }
+.solicitarCartao h2{
+    align-items: center;
+}
+.propaganda{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .video p{
     padding: 10px;
 }
@@ -105,6 +103,7 @@ footer{
     background-color: orange;
     align-items:center;
 }
+
 footer img{
     width: 60px;
     height: 60px;
@@ -116,12 +115,12 @@ footer div{
 .container {
     display: grid;
     width: 100%;
-    grid-template-rows: 10vh 20vh 20vh 20vh 15vh 15vh;
+    grid-template-rows: 10vh 20vh 20vh 20vh 500px 150px;
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas: 'head head head head head head head head'
-                         'nav nav main main main main main main'
-                         'nav nav main main main main main main'
-                         'nav nav main main main main main main'
-                         'nav nav main main main main main main'
+                         'main main main main main main main main'
+                         'main main main main main main main main'
+                         'main main main main main main main main'
+                         'main main main main main main main main'
                          'foot foot foot foot foot foot foot foot';
 }

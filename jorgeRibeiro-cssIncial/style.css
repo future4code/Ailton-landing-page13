@@ -9,7 +9,14 @@ header {
     justify-content:space-between;
     background-color: orange;
     align-items:center;
+    padding: 10px 15px;
+    
+  
 }
+
+
+
+
 nav{
     grid-area: nav;
 }

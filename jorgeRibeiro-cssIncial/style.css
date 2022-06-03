@@ -9,7 +9,14 @@ header {
     justify-content:space-between;
     background-color: orange;
     align-items:center;
+    padding: 10px 15px;
+    
+  
 }
+
+
+
+
 nav{
     grid-area: nav;
 }
@@ -25,6 +32,10 @@ main{
     
     gap: 15px;
     align-items: center;
+}
+
+.saiba-mais{
+    color:blue
 }
 video{
     width: 640px;

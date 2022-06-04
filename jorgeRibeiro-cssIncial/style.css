@@ -93,6 +93,7 @@ textarea{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .video p{
     padding: 10px;
 }
@@ -123,8 +124,4 @@ footer div{
                          'main main main main main main main main'
                          'main main main main main main main main'
                          'foot foot foot foot foot foot foot foot';
-
-                         
-}
-
 

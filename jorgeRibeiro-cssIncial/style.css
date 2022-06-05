@@ -9,7 +9,7 @@ header {
     justify-content:stretch;
     background-color: orange;
     align-items:center;
-
+    width: 100%;
     padding: 10px 15px;
     text-align: center;
     
@@ -38,7 +38,7 @@ button:hover{
 
 .img-header {
 
-  height: 150%;  
+  height: 115%;  
   width: 7%;
   cursor: pointer;
 }
@@ -47,11 +47,7 @@ header h1 {
     display: flex;
     padding-right: 72%;
 }
-nav{
-    grid-area: nav;
-    flex-grow: 1;
 
-}
 main{
     grid-area: main;
     display:flex;
@@ -61,13 +57,27 @@ main{
     margin: 40px;    
     align-items: center;
 }
+.apresentacao{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.propagandas{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav{
+    
+    flex-grow: 1;
+
+}
 .solicitarCartao{
     flex-grow: 2;
-    justify-content:center 
+    align-items: center; 
 }
-.saiba-mais{
-    color:blue
-}
+
 video{
     width: 640px;
     height: 360px;
@@ -116,7 +126,7 @@ footer div{
 .container {
     display: grid;
     width: 100%;
-    grid-template-rows: 10vh 20vh 20vh 20vh 500px 150px;
+    grid-template-rows: 110px 20vh 20vh 20vh 500px 150px;
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas: 'head head head head head head head head'
                          'main main main main main main main main'

@@ -8,8 +8,8 @@ Link do surge: https://ripe-slip.surge.sh/
 Site o banco F4BANK.
 
 
-![Header e Menu](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/jorge/Pictures/Progeto%20grupo/Nova%20pasta/PRINCIPLA.png?version%3D1654465958366)
+![PRINCIPLA](https://user-images.githubusercontent.com/104743207/172073130-3b69a080-2bfb-4a8b-ab3f-038b0af2bfa7.png)
 
 
 
-![Footer](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/jorge/Pictures/Progeto%20grupo/Nova%20pasta/Rodape.png?version%3D1654466264118)
+![Footer](https://user-images.githubusercontent.com/104743207/172073344-39d23d9f-5832-4813-b88a-cc5403842700.png)
